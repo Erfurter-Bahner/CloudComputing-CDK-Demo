@@ -1,0 +1,16 @@
+{
+  "name": "cdk-github-actions-demo",
+  "version": "0.1.0",
+  "bin": {
+    "cdk-github-actions-demo": "bin/app.ts"
+  },
+  "scripts": {
+    "build": "tsc",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "aws-cdk-lib": "^2.100.0",
+    "constructs": "^10.0.0",
+    "typescript": "^5.0.0"
+  }
+}
