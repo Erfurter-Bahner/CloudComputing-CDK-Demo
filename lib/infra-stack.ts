@@ -15,7 +15,7 @@ export class InfraStack extends cdk.Stack {
           console.log("Request received");
           return {
             statusCode: 200,
-            body: JSON.stringify({ message: 'Hallo von der GitHub Actions CDK Demo! 🚀' })
+            body: JSON.stringify({ message: 'Hallo Kasche' })
           };
         };
       `),
